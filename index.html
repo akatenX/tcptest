@@ -6,7 +6,7 @@
 <script>
 $(function(){
 	// WebSocket作成
-	var ws = new WebSocket("ws://localhost:8080/WebSocketSample/echo");
+	var ws = new WebSocket("ws://192.168.1.30:7331");
 
 	// WebSocket open時のイベントハンドラ登録
 	ws.onopen = function(){
